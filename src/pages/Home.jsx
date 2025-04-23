@@ -17,6 +17,10 @@ export default function Home() {
         </h2>
         <StoreMap />
       </div>
+      <img
+        src="https://drive.google.com/uc?export=view&id=1LXvpv4NS0CHk-AJtcYJTjDu9Ax-z8qCP"
+        alt="Drive Image"
+      />
     </div>
   );
 }

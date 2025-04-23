@@ -14,17 +14,13 @@ export default function ProductCard({ product }) {
       <h2 className="text-lg font-semibold mt-2">{product.name}</h2>
 
       <div className="mt-1">
-        {product.price && product.price > product.discountPrice ? (
+        {product.originalPrice && product.originalPrice > product.price ? (
           <div className="text-sm text-gray-500">
-            <span className="line-through mr-2">₹{product.price}</span>
-            <span className="text-black font-semibold">
-              ₹{product.discountPrice}
-            </span>
+            <span className="line-through mr-2">₹{product.originalPrice}</span>
+            <span className="text-black font-semibold">₹{product.price}</span>
           </div>
         ) : (
-          <p className="text-sm text-black font-semibold">
-            ₹{product.discountPrice}
-          </p>
+          <p className="text-sm text-black font-semibold">₹{product.price}</p>
         )}
       </div>
     </Link>
