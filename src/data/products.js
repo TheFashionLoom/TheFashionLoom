@@ -31,18 +31,19 @@ export const test_products = [
 ];
 export const products = [
   {
-    id: "1744818086705",
-    name: "test_product",
+    id: "1744978226465",
+    name: "T-Shirts",
     images: [
-      "https://drive.google.com/uc?export=view&id=1LXvpv4NS0CHk-AJtcYJTjDu9Ax-z8qCP",
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1744554565/IMG-20250413-WA0015_lcpw5f.jpg",
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0019_harbeo.jpg",
       "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0022_ebvdhv.jpg",
-      "https://drive.google.com/uc?export=view&id=1LXvpv4NS0CHk-AJtcYJTjDu9Ax-z8qCP",
     ],
-    sizes: ["X", "S", "XL"],
+    sizes: ["XL", "XXL"],
+    categories: ["Men"],
+    fabric: "Cotton",
     store: "Store 1",
-    price: "500",
-    discountPrice: "200",
-    colors: ["Red", " Gray", " Green"],
-    quantity: 20,
+    price: 599,
+    discountPrice: 299,
+    quantity: 26,
   },
 ];
