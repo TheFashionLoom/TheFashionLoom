@@ -1,18 +1,22 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import ProductDetails from "./pages/ProductDetails";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
-      <div className="text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-pulse">
-          The Fashion Loom
-        </h1>
-        <p className="text-lg md:text-2xl mb-6">Coming Soon...</p>
-        <p className="text-sm md:text-base text-gray-400">
-          Stay tuned for something amazing!
-        </p>
-      </div>
-    </div>
+    <Router>
+      <Header />
+      <main className="min-h-[80vh]">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
+        </Routes>
+      </main>
+      <Footer />
+    </Router>
   );
 };
 
