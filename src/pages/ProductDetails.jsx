@@ -30,7 +30,7 @@ export default function ProductDetails() {
       {/* Fabric */}
       <div className="mt-2">
         <span className="font-semibold">Fabric</span>
-        <p>{product.fabric} pcs</p>
+        <p>{product.fabric}</p>
       </div>
 
       {/* Sizes */}

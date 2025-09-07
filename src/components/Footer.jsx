@@ -23,7 +23,7 @@ export default function Footer() {
         {/* Contact Info */}
         <div className="text-center ">
           <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-          <p>📞 +91 9001768592</p>
+          <p>📞 +91 9910040329</p>
           <p>✉️ support@thefashionloom.com</p>
         </div>
 

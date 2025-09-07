@@ -1,37 +1,6 @@
-export const test_products = [
-  {
-    id: "1",
-    name: "Denim Jacket",
-    price: 1499,
-    originalPrice: 1999, // 👈 original price
-    description: "Stylish denim jacket perfect for casual wear.",
-    images: [
-      "https://res.cloudinary.com/dg2daj5ha/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1744554565/IMG-20250413-WA0015_lcpw5f.jpg",
-      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0019_harbeo.jpg",
-      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0022_ebvdhv.jpg",
-    ],
-    colors: ["#000000", "#1e3a8a"],
-    sizes: ["S", "M", "L", "XL"], // 👈 Add available sizes
-    quantity: 12, // 👈 How many pieces
-    store: "Delhi Showroom", // 👈 Store location
-  },
-  {
-    id: "2",
-    name: "Cotton Kurti",
-    price: 999,
-    originalPrice: 1599, // 👈 original price
-    description: "Elegant cotton kurti for daily comfort and style.",
-    images: ["/images/cotton-kurti-front.jpg", "/images/cotton-kurti-back.jpg"],
-    colors: ["#d97706", "#16a34a"],
-    sizes: ["M", "L"],
-    quantity: 8,
-    store: "Mumbai Store",
-  },
-  // Add more products similarly...
-];
 export const products = [
   {
-    id: "1744978226465",
+    id: "1",
     name: "T-Shirts",
     images: [
       "https://res.cloudinary.com/dg2daj5ha/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1744554565/IMG-20250413-WA0015_lcpw5f.jpg",
@@ -41,9 +10,55 @@ export const products = [
     sizes: ["XL", "XXL"],
     categories: ["Men"],
     fabric: "Cotton",
-    store: "Store 1",
+    store: "Kota Baran",
     price: 599,
     discountPrice: 299,
     quantity: 26,
+  },
+  {
+    id: "1744978226472",
+    name: "Women's Casual Top",
+    images: [
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1744554565/IMG-20250413-WA0015_lcpw5f.jpg",
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0019_harbeo.jpg",
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0022_ebvdhv.jpg",
+    ],
+    sizes: ["S", "M"],
+    categories: ["Women"],
+    fabric: "Rayon",
+    store: "Store 2",
+    price: 599,
+    discountPrice: 449,
+    quantity: 22,
+  },
+  {
+    id: "1757225225840",
+    name: "Kids Shorts",
+    images: [
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1744554565/IMG-20250413-WA0015_lcpw5f.jpg",
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0019_harbeo.jpg",
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0022_ebvdhv.jpg",
+    ],
+    sizes: ["S", "XS"],
+    categories: ["Kids"],
+    fabric: "Cotton",
+    store: "Kota Baran",
+    price: 199,
+    discountPrice: 149,
+    quantity: 50,
+  },
+  {
+    id: "1757225267176",
+    name: "Women's Kurti",
+    images: [
+      "https://res.cloudinary.com/dg2daj5ha/image/upload/v1744554562/IMG-20250413-WA0022_ebvdhv.jpg",
+    ],
+    sizes: ["M", "L", "XL", "XXL"],
+    categories: ["Women"],
+    fabric: "Polyester",
+    store: "Kota Baran",
+    price: 599,
+    discountPrice: 400,
+    quantity: 45,
   },
 ];
